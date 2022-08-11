@@ -32,8 +32,8 @@ h1 {
     position: relative;
 }
 
-.o:after {
-    content: "\2B55";
+.o:after,
+.x:after {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
@@ -41,13 +41,12 @@ h1 {
     line-height: 100px;
 }
 
+.o:after {
+    content: "\2B55";
+}
+
 .x:after {
     content: "\274C";
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 50px;
-    line-height: 100px;
 }
 
 #reset_btn {
