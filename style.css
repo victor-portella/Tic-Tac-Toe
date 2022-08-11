@@ -27,6 +27,12 @@ h1 {
     border-radius: 7px;
 }
 
+.square:hover {
+    scale: 1.1;
+    transition: .2s;
+    background-color: rgb(0, 235, 235);
+}
+
 .o,
 .x {
     position: relative;
@@ -59,4 +65,9 @@ h1 {
     cursor: pointer;
     border-radius: 7px;
     letter-spacing: 1px;
+}
+
+#reset_btn:hover {
+    background-color: rgb(0, 97, 97);
+    transition: .3s;
 }
