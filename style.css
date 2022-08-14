@@ -12,7 +12,8 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1,
+p {
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
     color: rgb(0, 158, 158);
